@@ -1,0 +1,71 @@
+a { text-decoration: underline; }
+
+.btn { text-transform: uppercase; }
+
+.text-primary { color: #00D5B4!important; }
+.text-secondary { color: #0077A9!important; }
+.bg-primary,
+.btn-primary,
+.badge-primary,
+.alert-primary {
+  background-image: linear-gradient(45deg, rgb(117,212,232), rgb(1,212,180), rgb(1,119,169));
+  border: 0;
+}
+
+.ReactTable .rt-table {
+	.rt-td, .rt-th {
+		border: 0;
+	}
+	.rt-thead .rt-tr {
+		text-align: left;
+		text-transform: uppercase;
+	}
+	.rt-tr, .rt-tbody .rt-tr-group { border-radius: 1rem; }
+	.rt-tbody .rt-tr-group {
+		border: none !important;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background-color: rgba($primary, .3);
+			cursor: pointer;
+		}
+	}
+	.rt-td .fa {
+		color: lighten($black, 30);
+	}
+}
+
+html .nvd3-inverse-mode .nvd3 .nv-legend-text, html .nvd3-inverse-mode .nvd3 .nv-x text, html .nvd3-inverse-mode .nvd3 .nv-y text {
+	fill: #333 !important;
+}
+
+.nav {
+	.nav-link {
+		text-decoration: none;
+		&.active {
+			border-bottom: solid 5px $primary;
+		}
+	}
+}
+
+.card {
+	border: 0;
+	border-radius: 1rem;
+	.card-header { 
+		border-top-left-radius: 1rem;
+		border-top-right-radius: 1rem; 
+	}
+	.card-footer { 
+		border-bottom-left-radius: 1rem;
+		border-bottom-right-radius: 1rem; 
+	}
+}
+
+.widget {
+	&.widget-stats {
+		border-radius: 1rem !important;
+	}
+	.stats-info p {
+		font-size: 48px !important;
+		line-height: 1;
+	}
+}

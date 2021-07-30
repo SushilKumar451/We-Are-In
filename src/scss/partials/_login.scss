@@ -1,0 +1,15 @@
+.login {
+	&.login-v2 {
+		margin-top: 20%;
+		& .login-content {
+			& .form-control {
+				padding: 0;
+				color: white;
+				border-bottom: 2px solid $dark;
+				border-bottom-right-radius: 0;
+				border-bottom-left-radius: 0;
+				background: transparent;
+			}
+		}
+	}
+}

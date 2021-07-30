@@ -1,0 +1,31 @@
+.header {
+	background: $body-bg !important;
+	z-index: 1010;
+	@media (min-width: 768px) {
+		padding: 0.5rem 1rem;
+	}
+}
+
+.sidebar {
+	padding-top: 0;
+	padding-bottom: 0;
+	background: $dark;
+	overflow: hidden;
+	z-index: 1020;
+	.navbar-brand {
+		margin: .3rem 1rem;
+		@media (min-width: 768px) {
+			margin: 1rem;
+		}
+	}
+	.scrollbar-container {
+		padding-top: 1.5rem;
+	}
+}
+.sidebar, .sidebar-bg {
+	border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.sidebar-bg { 
+	z-index: 0; 
+}

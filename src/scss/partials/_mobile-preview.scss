@@ -1,0 +1,22 @@
+.mobile {
+	&-preview {
+		display: block;
+		position: relative;
+		overflow: hidden;
+		&:before {
+			content: url('../../assets/img/mobile.svg');
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 330px;
+		}
+	}
+	&-contents {
+		position: relative;
+		width: 330px;
+		height: 600px;
+		margin: 35px 0;
+		padding: 20px;
+		overflow: scroll;
+	}
+}
